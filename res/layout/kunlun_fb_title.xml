@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff3b5998" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/kunlun_fb_title_logo" android:layout_width="96.0dip" android:layout_height="fill_parent" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:id="@id/kunlun_fb_title_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <Button android:id="@id/kunlun_fb_title_backgame" android:background="@drawable/kunlun_fb_selector_back_game" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="centerCrop" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

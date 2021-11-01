@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config URL="http://209.14.130.30/t01/Update/Android/">
+	<Application VerText="Beta 1" VerCode="20190909" />
+	<Resource VerText="Beta 1" VerCode="20190101" />
+  <PackageType IsMiniPack="true" />
+  <AppLevelUp VerCode="19000" linkurl="http://209.14.130.30/Update/client.apk" isOpen="1" msg="The current version is not the latest, click [Confirm] to download the latest version to log in to the game!" />
+  <Info 
+	serverip="209.14.130.30" 
+	voiceserverip="209.14.130.30" 
+	pushserverip="" 
+	
+	serverlisturl="http://209.14.130.30/t01/ZTServerList/"  
+	serverlisturlsecond="http://209.14.130.30/t01/ZTGetServerId/" 
+	verifyaccountserverip="http://209.14.130.30/t01/Verify/" 
+	payserverip="http://209.14.130.30/t01/Verify/" 
+	bakurl="http://209.14.130.30/t01/Verify/" 
+	versionurl="http://209.14.130.30/t01/Version/Android/" 
+
+	updateclientname="MImini_2015_3_5_15_50.apk" serverid="1" gameid="local" login="1" lang="0" isolateresid="1" roleNum="0" deleteRole="0" loginport="4402" gameport="3001" isZip="1" IsAppVerify="0" IsInner="0"/>
+  <Test TestURL="http://209.14.130.30/t01/Version/Android/"/>
+</Config>

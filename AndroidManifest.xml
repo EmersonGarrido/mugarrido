@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="23" android:compileSdkVersionCodename="6.0-2438415" android:installLocation="auto" package="mu.garrido.br.ggplay.mu" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true"/>
+    <application android:allowBackup="true" android:debuggable="true" android:hardwareAccelerated="true" android:icon="@drawable/ic_launcher" android:label="MuGarrido" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:label="@string/app_name" android:name="mu.garrido.br.ggplay.mu.MainActivity" android:screenOrientation="landscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <meta-data android:name="unityplayer.UnityActivity" android:value="true"/>
+            <meta-data android:name="unityplayer.ForwardNativeEventsToDalvik" android:value="false"/>
+        </activity>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:label="@string/app_name" android:launchMode="singleTask" android:name="mu.garrido.br.ggplay.mu.UnityPlayerNativeActivity" android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="mu.garrido.br.ggplay.mu"/>
+                <data android:host="" android:scheme="fb364235612054142"/>
+                <data android:host="mu.garrido.br.ggplay.mu" android:scheme="kunlun"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.umeng.fb.ConversationActivity"/>
+        <activity android:name="com.umeng.fb.ContactActivity"/>
+        <meta-data android:name="tmsk_platname" android:value="TTGA"/>
+        <meta-data android:name="tmsk_sdkname" android:value="TTGA"/>
+        <receiver android:name="com.tianmashikong.notification.AlarmReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="Kunlun.location" android:value="th-en"/>
+        <meta-data android:name="Kunlun.productId" android:value="1071"/>
+        <meta-data android:name="Kunlun.unionId" android:value=""/>
+        <meta-data android:name="Kunlun.unionSid" android:value=""/>
+        <meta-data android:name="Kunlun.gameCode" android:value="eyJ2Ijoia2wifQ%3D%3D"/>
+        <meta-data android:name="Kunlun.debugMode" android:value="false"/>
+        <receiver android:name="com.kunlun.platform.android.KunlunReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|layoutDirection|locale|orientation|screenSize" android:name="com.kunlun.platform.android.KunlunActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="com.google.android.gms.games.APP_ID" android:value="@string/app_id"/>
+        <meta-data android:name="com.google.android.gms.games.SERVER_CLIENTID" android:value="@string/server_clientid"/>
+        <meta-data android:name="GoogleSdk.loginType" android:value="old"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.kunlun.platform.android.google.GoogleActivity" android:theme="@android:style/Theme.Dialog"/>
+        <meta-data android:name="GooglePlay.notShowConnectingPopup" android:value="true"/>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="3.64235608E14"/>
+        <meta-data android:name="Kunlun.sns_channel" android:value="facebookCenter"/>
+        <activity android:name="com.kunlun.sns.channel.facebookCenter.activity.KunlunFbFriendRequestAcitvity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <activity android:name="com.kunlun.sns.channel.facebookCenter.activity.KunlunFbFriendCircleActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <activity android:name="com.kunlun.sns.channel.facebookCenter.activity.KunlunFbMessageCenterActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <activity android:name="com.kunlun.sns.channel.facebookCenter.activity.KunlunFbShareActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|layoutDirection|locale|orientation|screenSize" android:name="com.kunlun.sns.channel.facebookCenter.activity.KunlunFbOpterationActivity" android:screenOrientation="fullSensor" android:theme="@android:style/Theme.Light.NoTitleBar" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="com.kunlun.sns.channel.facebookCenter.activity.KunlunFbFBActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:label="@string/app_name" android:name="com.facebook.FacebookActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="com.facebook.app.FacebookContentProvider364235612054142" android:exported="true" android:name="com.facebook.FacebookContentProvider"/>
+        <activity android:configChanges="keyboardHidden|layoutDirection|locale|orientation|screenSize" android:excludeFromRecents="true" android:name="com.kunlun.platform.android.facebook.FBActivity" android:theme="@android:style/Theme.Dialog" android:windowSoftInputMode="stateHidden"/>
+        <meta-data android:name="Kunlun.ApploginIcon.googleplus" android:resource="@drawable/ic_play_games_badge_green"/>
+        <meta-data android:name="Kunlun.ApploginIcon.signinwithgoogle" android:resource="@drawable/play_game_service"/>
+        <receiver android:name="com.appsflyer.AppsFlyerLib">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="AppsFlyerDevKey" android:value="NzqMLQwdFNbQSXoortCXgX"/>
+        <activity android:excludeFromRecents="true" android:name="com.chartboost.sdk.CBImpressionActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+    </application>
+</manifest>

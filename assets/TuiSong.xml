@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <TuiSong ID="1" Type="1" Time="09:00" Num="-1" Title="Good moning players" Description="Good morning warrior! Quickly go online to see what`s today reward! " />
+  <TuiSong ID="2" Type="1" Time="12:00" Num="-1" Title="Activity after lunch" Description="Sleepy afternoon? Check out fiery fights in the game to stay energized!" />
+  <TuiSong ID="3" Type="1" Time="18:00" Num="-1" Title="it is BOSS time" Description="Which boss is awakening? Come defeat it! First kill gets the reward !" />
+  <TuiSong ID="4" Type="1" Time="21:00" Num="-1" Title="It is time for PK" Description="War of glory! Battle of the PK Kings! Warrior, let's Join the fight for our honor!" />
+  <TuiSong ID="5" Type="4" Time="3,19:00" Num="1" Title="MU Assistant" Description="Dear player, you have not been online for 3 days. All of your Friends are waiting for your comeback." />
+  <TuiSong ID="6" Type="4" Time="7,19:00" Num="1" Title="MU Assistant" Description="Dear player, you have not been online for 7 days. All of your Friends are waiting for your comeback." />
+  <TuiSong ID="7" Type="4" Time="15,19:00" Num="1" Title="MU Assistant" Description="Dear player, you have not been online for 15 days. All of your Friends are waiting for your comeback." />
+  <TuiSong ID="8" Type="3" Time="3,21:30" Num="-1" Title="Armed Forces Order" Description="Duang! Roland City Battle starts! War alliance is caling you for Battle. Wait for your coming!" />
+  <TuiSong ID="9" Type="3" Time="6,21:30" Num="-1" Title="Armed Forces Order" Description="Duang! Roland City Battle starts! War alliance is caling you for Battle. Wait for your coming!" />
+</config>

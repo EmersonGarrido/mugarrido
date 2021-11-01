@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/scrollView1" android:background="#ffffffff" android:layout_width="300.0sp" android:layout_height="220.0sp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/bluepay_logo" android:layout_width="200.0sp" android:layout_height="50.0sp" android:layout_marginTop="5.0sp" />
+    <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/Bluep_payTip" android:paddingRight="5.0sp" android:layout_width="250.0sp" android:layout_height="40.0sp" android:layout_marginTop="5.0sp" />
+    <Button android:textSize="16.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/Bluep_payList" android:background="@drawable/bluep_paylist_bg" android:paddingRight="5.0sp" android:layout_width="250.0sp" android:layout_height="40.0sp" android:layout_marginTop="5.0sp" android:drawableRight="@drawable/bluep_paylist_arrow_selector" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0sp" android:layout_marginBottom="5.0sp">
+        <Button android:textColor="#ffffffff" android:id="@id/Bluep_paybyYes" android:background="@drawable/bluep_btnbg_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0sp" android:text="Ok" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <Button android:textColor="#ffffffff" android:id="@id/Bluep_paybyNo" android:background="@drawable/bluep_btnbg_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30.0sp" android:text="Cancel" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/kunlun_fb_float_content_layout" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/kunlun_fb_float_menu_layout" android:background="@drawable/kunlun_fb_float_layout_bg" android:paddingLeft="20.0dip" android:layout_width="wrap_content" android:layout_height="@dimen/kunlun_float_button_size" android:layout_marginLeft="21.0dip" />
+    <View android:id="@id/kunlun_fb_right_corner_block" android:background="@drawable/kunlun_fb_right_block_bg" android:layout_width="wrap_content" android:layout_height="@dimen/kunlun_float_button_size" android:layout_toRightOf="@id/kunlun_fb_float_menu_layout" />
+    <ImageView android:id="@id/kunlun_fb_float_present_button" android:background="@drawable/kunlun_fb_float_default" android:layout_width="@dimen/kunlun_float_button_size" android:layout_height="@dimen/kunlun_float_button_size" />
+</RelativeLayout>

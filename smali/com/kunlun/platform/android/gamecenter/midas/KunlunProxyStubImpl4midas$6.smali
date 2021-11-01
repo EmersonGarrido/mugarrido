@@ -1,0 +1,100 @@
+.class final Lcom/kunlun/platform/android/gamecenter/midas/KunlunProxyStubImpl4midas$6;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/kunlun/platform/android/gamecenter/midas/KunlunProxyStubImpl4midas;->onResume(Landroid/app/Activity;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field private synthetic iz:Lcom/kunlun/platform/android/gamecenter/midas/KunlunProxyStubImpl4midas;
+
+
+# direct methods
+.method constructor <init>(Lcom/kunlun/platform/android/gamecenter/midas/KunlunProxyStubImpl4midas;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/kunlun/platform/android/gamecenter/midas/KunlunProxyStubImpl4midas$6;->iz:Lcom/kunlun/platform/android/gamecenter/midas/KunlunProxyStubImpl4midas;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 4
+
+    new-instance v0, Lcom/tencent/msdk/api/LoginRet;
+
+    invoke-direct {v0}, Lcom/tencent/msdk/api/LoginRet;-><init>()V
+
+    invoke-static {v0}, Lcom/tencent/msdk/api/WGPlatform;->WGGetLoginRecord(Lcom/tencent/msdk/api/LoginRet;)I
+
+    const-string v1, "KunlunProxyStubImpl4midas"
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    const-string v3, "LoginRet.flag:"
+
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    iget v3, v0, Lcom/tencent/msdk/api/LoginRet;->flag:I
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-static {v1, v2}, Lcom/kunlun/platform/android/KunlunUtil;->logd(Ljava/lang/String;Ljava/lang/String;)V
+
+    invoke-static {}, Lcom/kunlun/platform/android/KunlunToastUtil;->hideProgressDialog()V
+
+    iget v0, v0, Lcom/tencent/msdk/api/LoginRet;->flag:I
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, p0, Lcom/kunlun/platform/android/gamecenter/midas/KunlunProxyStubImpl4midas$6;->iz:Lcom/kunlun/platform/android/gamecenter/midas/KunlunProxyStubImpl4midas;
+
+    invoke-static {v0}, Lcom/kunlun/platform/android/gamecenter/midas/KunlunProxyStubImpl4midas;->a(Lcom/kunlun/platform/android/gamecenter/midas/KunlunProxyStubImpl4midas;)Lcom/kunlun/platform/android/Kunlun$LoginListener;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    iget-object v0, p0, Lcom/kunlun/platform/android/gamecenter/midas/KunlunProxyStubImpl4midas$6;->iz:Lcom/kunlun/platform/android/gamecenter/midas/KunlunProxyStubImpl4midas;
+
+    invoke-static {v0}, Lcom/kunlun/platform/android/gamecenter/midas/KunlunProxyStubImpl4midas;->a(Lcom/kunlun/platform/android/gamecenter/midas/KunlunProxyStubImpl4midas;)Lcom/kunlun/platform/android/Kunlun$LoginListener;
+
+    move-result-object v0
+
+    const/16 v1, 0x65
+
+    const-string v2, "\u767b\u5f55\u6388\u6743\u5931\u8d25"
+
+    const/4 v3, 0x0
+
+    invoke-interface {v0, v1, v2, v3}, Lcom/kunlun/platform/android/Kunlun$LoginListener;->onComplete(ILjava/lang/String;Lcom/kunlun/platform/android/KunlunEntity;)V
+
+    iget-object v0, p0, Lcom/kunlun/platform/android/gamecenter/midas/KunlunProxyStubImpl4midas$6;->iz:Lcom/kunlun/platform/android/gamecenter/midas/KunlunProxyStubImpl4midas;
+
+    invoke-static {v0}, Lcom/kunlun/platform/android/gamecenter/midas/KunlunProxyStubImpl4midas;->d(Lcom/kunlun/platform/android/gamecenter/midas/KunlunProxyStubImpl4midas;)V
+
+    :cond_0
+    return-void
+.end method

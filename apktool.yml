@@ -1,0 +1,146 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: MuGarrido.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- AndroidManifest.xml
+- res/anim/loading.xml
+- res/layout-v13/com_facebook_device_auth_dialog_fragment.xml
+- res/drawable/cast_ic_notification_connecting.xml
+- res/drawable/kunlun_fb_toast_background.xml
+- res/drawable/common_google_signin_btn_icon_dark.xml
+- res/drawable/com_facebook_button_icon.xml
+- res/drawable/common_google_signin_btn_text_dark.xml
+- res/drawable/kunlun_fb_selector_btn.xml
+- res/drawable/common_plus_signin_btn_text_light.xml
+- res/drawable/common_google_signin_btn_text_light.xml
+- res/drawable/com_facebook_button_like_background.xml
+- res/drawable/com_facebook_button_send_background.xml
+- res/drawable/kunlun_fb_checkbox_bg.xml
+- res/drawable/kunlun_fb_selector_back_game.xml
+- res/drawable/com_facebook_button_background.xml
+- res/drawable/messenger_button_blue_bg_round.xml
+- res/drawable/messenger_button_white_bg_round.xml
+- res/drawable/messenger_button_blue_bg_selector.xml
+- res/drawable/messenger_button_white_bg_selector.xml
+- png
+- res/drawable/common_plus_signin_btn_text_dark.xml
+- res/drawable/common_plus_signin_btn_icon_light.xml
+- res/drawable/common_google_signin_btn_icon_light.xml
+- res/drawable/common_plus_signin_btn_icon_dark.xml
+- res/drawable/com_facebook_auth_dialog_background.xml
+- res/drawable/com_facebook_button_login_silver_background.xml
+- res/drawable/com_facebook_send_button_icon.xml
+- res/drawable/com_facebook_auth_dialog_header_background.xml
+- res/drawable/com_facebook_auth_dialog_cancel_background.xml
+- res/layout/place_autocomplete_item_prediction.xml
+- res/layout/kunlun_widget_dialog_clause_layout.xml
+- res/layout/messenger_button_send_white_round.xml
+- res/layout/kunlun_fb_float_button_layout.xml
+- res/layout/com_facebook_activity_layout.xml
+- res/layout/com_facebook_tooltip_bubble.xml
+- res/layout/messenger_button_send_blue_small.xml
+- res/layout/messenger_button_send_blue_large.xml
+- res/layout/kunlun_fb_friend_circle.xml
+- res/layout/place_autocomplete_fragment.xml
+- res/layout/bluep_by_otc_portrait.xml
+- res/layout/bluep_by_offline.xml
+- res/layout/kunlun_fb_float_button_menu_item.xml
+- res/layout/item_drop_down.xml
+- res/layout/kunlun_fb_title.xml
+- res/layout/kunlun_fb_friends_item.xml
+- res/layout/logo.xml
+- res/layout/messenger_button_send_white_small.xml
+- res/layout/messenger_button_send_white_large.xml
+- res/layout/view_loading.xml
+- res/layout/activity_pay_ui.xml
+- res/layout/bluep_by_ad.xml
+- res/layout/bluep_by_otc_landscape.xml
+- res/layout/kunlun_fb_message_center.xml
+- res/layout/activity_main.xml
+- res/layout/place_autocomplete_progress.xml
+- res/layout/kunlun_fb_friends.xml
+- res/layout/place_autocomplete_item_powered_by_google.xml
+- res/layout/messenger_button_send_blue_round.xml
+- res/layout/com_facebook_login_fragment.xml
+- res/layout/kunlun_fb_friend_circle_item.xml
+- res/layout/bluep_smslist.xml
+- res/layout/kunlun_fb_bottom_layout.xml
+- res/layout/com_facebook_device_auth_dialog_fragment.xml
+- res/layout/kunlun_fb_message_item.xml
+- res/layout/kunlun_fb_present_toast.xml
+- res/color/com_facebook_button_text_color.xml
+- res/color/common_google_signin_btn_text_dark.xml
+- res/color/common_plus_signin_btn_text_light.xml
+- res/color/common_google_signin_btn_text_light.xml
+- res/color/wallet_secondary_text_holo_dark.xml
+- res/color/wallet_primary_text_holo_light.xml
+- res/color/common_plus_signin_btn_text_dark.xml
+- res/color/com_facebook_send_button_text_color.xml
+- jpg
+- res/drawable-hdpi/bluep_paylist_arrow_selector.xml
+- res/drawable-hdpi/bluep_btnbg_selector.xml
+- res/drawable-ldpi/bluep_paylist_arrow_selector.xml
+- res/drawable-ldpi/bluep_btnbg_selector.xml
+- res/layout-v21/place_autocomplete_fragment.xml
+- res/layout-v21/place_autocomplete_progress.xml
+- res/menu/fb_base.xml
+- res/layout-v17/place_autocomplete_item_prediction.xml
+- res/layout-v17/place_autocomplete_item_powered_by_google.xml
+- res/menu-v11/fb_base.xml
+- res/layout-v11/kunlun_fb_float_button_layout.xml
+- res/layout-v11/bluep_by_offline.xml
+- res/layout-v16/com_facebook_device_auth_dialog_fragment.xml
+- assets/quality_config.xml
+- assets/index.xml
+- assets/GongGaoAdd.xml
+- assets/effectshare.unity3d
+- assets/UserTreaty.xml
+- assets/shareshader.unity3d
+- assets/android_dev.xml
+- assets/version.xml
+- assets/TuiSong.xml
+- assets/gmlogininfo.txt
+- assets/serverip.txt
+- assets/MonsterSpeed.xml
+- assets/bin/Data/settings.xml
+- assets/bin/Data/Managed/Ionic.Zlib.CF.dll
+- assets/bin/Data/Managed/NSpeex.dll
+- assets/bin/Data/Managed/Assembly-CSharp.dll
+- assets/bin/Data/Managed/Assembly-UnityScript-firstpass.dll
+- assets/bin/Data/Managed/UnityEngine.xml
+- assets/bin/Data/Managed/Assembly-UnityScript.dll
+- assets/bin/Data/Managed/ClientTools.dll
+- assets/bin/Data/Managed/zlib.net.dll
+- assets/bin/Data/Managed/UnityScript.Lang.dll
+- assets/bin/Data/Managed/mscorlib.dll
+- assets/bin/Data/Managed/ICSharpCode.SharpZipLib.dll
+- assets/bin/Data/Managed/Boo.Lang.dll
+- assets/bin/Data/Managed/DebugExpend.dll
+- assets/bin/Data/Managed/UnityEngine.dll
+- assets/bin/Data/Managed/UnityEngine.UI.dll
+- assets/bin/Data/Managed/Assembly-CSharp-firstpass.dll
+- assets/bin/Data/Managed/Mono.Security.dll
+- assets/bin/Data/Managed/System.dll
+- assets/bin/Data/Managed/System.Xml.dll
+- assets/bin/Data/Managed/UnityEngine.Networking.dll
+- assets/bin/Data/Managed/System.Core.dll
+- assets/bin/Data/Unity_Assets_Files/2539325907c8e45448b051d5c176c5d9/Language.xml
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '7'
+  targetSdkVersion: '26'
+sharedLibrary: false
+sparseResources: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.6.0
+versionInfo:
+  versionCode: '703'
+  versionName: 8.0.2

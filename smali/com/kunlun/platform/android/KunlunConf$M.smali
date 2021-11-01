@@ -1,0 +1,302 @@
+.class final Lcom/kunlun/platform/android/KunlunConf$M;
+.super Lcom/kunlun/platform/android/KunlunConf;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/kunlun/platform/android/KunlunConf;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x8
+    name = "M"
+.end annotation
+
+
+# direct methods
+.method constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Lcom/kunlun/platform/android/KunlunConf;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method final A()Lcom/kunlun/platform/android/KunlunConf$T;
+    .locals 1
+
+    const-string v0, "http://sdk.api.jp.koramgame.com/?act=webpassport.main&deviceType=android"
+
+    invoke-static {v0}, Lcom/kunlun/platform/android/KunlunConf;->c(Ljava/lang/String;)Lcom/kunlun/platform/android/KunlunConf$T;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method final B()Lcom/kunlun/platform/android/KunlunConf$T;
+    .locals 1
+
+    const-string v0, "http://jp.koramgame.com/?act=mobile.go"
+
+    invoke-static {v0}, Lcom/kunlun/platform/android/KunlunConf;->c(Ljava/lang/String;)Lcom/kunlun/platform/android/KunlunConf$T;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method final C()Lcom/kunlun/platform/android/KunlunConf$T;
+    .locals 1
+
+    const-string v0, "http://m.jp.lp.koramgame.com/"
+
+    invoke-static {v0}, Lcom/kunlun/platform/android/KunlunConf;->c(Ljava/lang/String;)Lcom/kunlun/platform/android/KunlunConf$T;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method final I()Lcom/kunlun/platform/android/KunlunConf$T;
+    .locals 1
+
+    const-string v0, "http://sdk.api.jp.koramgame.com/pay/proxy/payinterface.php"
+
+    invoke-static {v0}, Lcom/kunlun/platform/android/KunlunConf;->c(Ljava/lang/String;)Lcom/kunlun/platform/android/KunlunConf$T;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method final J()Lcom/kunlun/platform/android/KunlunConf$T;
+    .locals 1
+
+    const-string v0, "http://api.push.jp.koramgame.com/?act=push.init"
+
+    invoke-static {v0}, Lcom/kunlun/platform/android/KunlunConf;->c(Ljava/lang/String;)Lcom/kunlun/platform/android/KunlunConf$T;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method final K()Lcom/kunlun/platform/android/KunlunConf$T;
+    .locals 1
+
+    const-string v0, "http://sdk.api.jp.koramgame.com/?act=usercenter.main&deviceType=android"
+
+    invoke-static {v0}, Lcom/kunlun/platform/android/KunlunConf;->c(Ljava/lang/String;)Lcom/kunlun/platform/android/KunlunConf$T;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method final M()Lcom/kunlun/platform/android/KunlunConf$T;
+    .locals 1
+
+    const-string v0, "http://sdk.api.jp.koramgame.com/?act=usercenter.findpassword&deviceType=android"
+
+    invoke-static {v0}, Lcom/kunlun/platform/android/KunlunConf;->c(Ljava/lang/String;)Lcom/kunlun/platform/android/KunlunConf$T;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method final g()Ljava/lang/String;
+    .locals 1
+
+    const-string v0, "ja"
+
+    return-object v0
+.end method
+
+.method final h()Ljava/lang/String;
+    .locals 1
+
+    const-string v0, ""
+
+    return-object v0
+.end method
+
+.method final i()Ljava/lang/String;
+    .locals 1
+
+    const-string v0, "1001"
+
+    return-object v0
+.end method
+
+.method final j()Ljava/lang/String;
+    .locals 1
+
+    const-string v0, "koramgame.com"
+
+    return-object v0
+.end method
+
+.method final k()Ljava/lang/String;
+    .locals 1
+
+    const-string v0, "4"
+
+    return-object v0
+.end method
+
+.method final l()Ljava/lang/String;
+    .locals 1
+
+    const-string v0, "googleglobal"
+
+    return-object v0
+.end method
+
+.method final n()Lcom/kunlun/platform/android/KunlunConf$T;
+    .locals 1
+
+    const-string v0, "http://login.jp.koramgame.com/?act=user.phonelogin"
+
+    invoke-static {v0}, Lcom/kunlun/platform/android/KunlunConf;->c(Ljava/lang/String;)Lcom/kunlun/platform/android/KunlunConf$T;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method final o()Lcom/kunlun/platform/android/KunlunConf$T;
+    .locals 1
+
+    const-string v0, "http://login.jp.koramgame.com/?act=user.phoneregist"
+
+    invoke-static {v0}, Lcom/kunlun/platform/android/KunlunConf;->c(Ljava/lang/String;)Lcom/kunlun/platform/android/KunlunConf$T;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method final p()Lcom/kunlun/platform/android/KunlunConf$T;
+    .locals 1
+
+    const-string v0, "http://login.jp.koramgame.com/?act=user.phoneconversion&v=2.0"
+
+    invoke-static {v0}, Lcom/kunlun/platform/android/KunlunConf;->c(Ljava/lang/String;)Lcom/kunlun/platform/android/KunlunConf$T;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method final q()Lcom/kunlun/platform/android/KunlunConf$T;
+    .locals 1
+
+    const-string v0, "http://login.jp.koramgame.com/?act=user.phonechangepwd&v=2.0"
+
+    invoke-static {v0}, Lcom/kunlun/platform/android/KunlunConf;->c(Ljava/lang/String;)Lcom/kunlun/platform/android/KunlunConf$T;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method final r()Lcom/kunlun/platform/android/KunlunConf$T;
+    .locals 1
+
+    const-string v0, "http://tw.mad.koramgame.com/"
+
+    invoke-static {v0}, Lcom/kunlun/platform/android/KunlunConf;->c(Ljava/lang/String;)Lcom/kunlun/platform/android/KunlunConf$T;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method final s()Lcom/kunlun/platform/android/KunlunConf$T;
+    .locals 1
+
+    const-string v0, "http://jp.mcenter.koramgame.com/"
+
+    invoke-static {v0}, Lcom/kunlun/platform/android/KunlunConf;->c(Ljava/lang/String;)Lcom/kunlun/platform/android/KunlunConf$T;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method final t()Lcom/kunlun/platform/android/KunlunConf$T;
+    .locals 1
+
+    const-string v0, "http://version-api.jp.koramgame.com/"
+
+    invoke-static {v0}, Lcom/kunlun/platform/android/KunlunConf;->c(Ljava/lang/String;)Lcom/kunlun/platform/android/KunlunConf$T;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method final u()Lcom/kunlun/platform/android/KunlunConf$T;
+    .locals 1
+
+    const-string v0, "http://jp.koramgame.com/?act=mobilenew.main&deviceType=android"
+
+    invoke-static {v0}, Lcom/kunlun/platform/android/KunlunConf;->c(Ljava/lang/String;)Lcom/kunlun/platform/android/KunlunConf$T;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method final v()Lcom/kunlun/platform/android/KunlunConf$T;
+    .locals 1
+
+    const-string v0, "http://payment.koramgame.com/proxy/"
+
+    invoke-static {v0}, Lcom/kunlun/platform/android/KunlunConf;->c(Ljava/lang/String;)Lcom/kunlun/platform/android/KunlunConf$T;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method final x()Lcom/kunlun/platform/android/KunlunConf$T;
+    .locals 1
+
+    const-string v0, "http://login.jp.koramgame.com/?act=user.facebooklogin"
+
+    invoke-static {v0}, Lcom/kunlun/platform/android/KunlunConf;->c(Ljava/lang/String;)Lcom/kunlun/platform/android/KunlunConf$T;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method final y()Lcom/kunlun/platform/android/KunlunConf$T;
+    .locals 1
+
+    const-string v0, "http://login.jp.koramgame.com/?act=user.thirdpartylogin"
+
+    invoke-static {v0}, Lcom/kunlun/platform/android/KunlunConf;->c(Ljava/lang/String;)Lcom/kunlun/platform/android/KunlunConf$T;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method final z()Lcom/kunlun/platform/android/KunlunConf$T;
+    .locals 1
+
+    const-string v0, "http://jp.koramgame.com/?act=mobile.login&deviceType=android"
+
+    invoke-static {v0}, Lcom/kunlun/platform/android/KunlunConf;->c(Ljava/lang/String;)Lcom/kunlun/platform/android/KunlunConf$T;
+
+    move-result-object v0
+
+    return-object v0
+.end method

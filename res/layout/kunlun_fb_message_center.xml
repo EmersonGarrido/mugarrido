@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffe9eaed" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:myAttrs="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/kunlun_fb_friend_header" layout="@layout/kunlun_fb_title" />
+    <TextView android:textColor="#ff3b5998" android:layout_gravity="center" android:id="@id/kunlun_fb_message_center_hint" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:maxLines="1" />
+    <com.kunlun.sns.widget.KL_DragToReFreshView android:orientation="vertical" android:id="@id/kunlun_fb_message_listview" android:layout_width="fill_parent" android:layout_height="fill_parent" myAttrs:KL_divider="@drawable/listview_line">
+        <ProgressBar android:layout_gravity="center" android:id="@id/dragToReFresh_footView" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginTop="5.0dip" />
+    </com.kunlun.sns.widget.KL_DragToReFreshView>
+</LinearLayout>

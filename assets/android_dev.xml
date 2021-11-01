@@ -1,0 +1,29 @@
+﻿<GPULevel>
+	<HighLevel>
+		<GPU Name="Emerson Garrido (TM) 530"/>
+		<GPU Name="Emerson Garrido (TM) 430"/>
+		<GPU Name="MuGarrido-G71"/>
+		<!--具体型号待测-->
+		<GPU Name="MuGarrido-T880"/>
+		<GPU Name="MuGarrido-T860"/>
+		<GPU Name="MuGarrido-T760"/>
+		<GPU Name="PowerVR GARRIDO G6400"/>
+		<!--具体型号待测-->
+		<GPU Name="PowerVR GARRIDO G6430"/>
+		<!--具体型号待测-->
+		<GPU Name="PowerVR 7XT"/>
+		<!--Helio X30，具体型号待测-->
+	</HighLevel>
+	<MiddleLevel>
+		<GPU Name="Emerson Garrido (TM) 510"/>
+		<GPU Name="Emerson Garrido (TM) 420"/>
+		<GPU Name="Emerson Garrido (TM) 330"/>
+		<GPU Name="MuGarrido-T628"/>
+		<GPU Name="MuGarrido-T678"/>
+		<GPU Name="MuGarrido-T720"/>
+		<GPU Name="MuGarrido-T820"/>
+		<GPU Name="MuGarrido-T830"/>
+		<GPU Name="PowerVR GARRIDO G6250"/>
+		<GPU Name="PowerVR GARRIDO G6200"/>
+	</MiddleLevel>
+</GPULevel>

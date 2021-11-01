@@ -1,0 +1,28 @@
+﻿<!--
+Render quality configuration, each item of 4 data corresponds to the highest, medium, low, and on-hook rendering quality
+ShaderOnLoad: ShakerLOD
+ParticleOnLoad: Whether the corner interface supports particles and post processing
+ShaderLOD
+VisiblePlayer: Maximum number of players visible on the same screen
+MaxSkillCount: maximum on-screen visible skill effects
+MaxRes: maximum screen resolution
+ScreenScale: screen resolution zoom ratio
+Particel: Turn on particles
+PostEffect: Turn on post-processing effects such as thermal distortion
+WaterDistort: Turn on the water surface distortion effect
+CameraBloom: Turn on the screen after flooding
+-->
+<RenderSettings
+  ShaderOnLoad="300, 300, 300, 200"
+  ParticleOnLoad="1, 1, 1, 0"
+  ShaderLOD="300, 200, 200, 150"
+  VisiblePlayer="30, 20, 10, 0"
+  MaxSkillCount="9, 6, 4, 0"
+  MaxRes="1080, 960, 720, 540"
+  ScreenScale="100, 100, 100, 70"
+  Particle="1, 1, 0, 0"
+  PostEffect="1, 1, 0, 0"
+  WaterDistort="1, 0, 0, 0"
+  Shadow="1, 1, 0, 0"
+  CameraBloom ="1, 0, 0, 0"
+  />

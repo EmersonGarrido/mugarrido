@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/kalends_line_clause_title_textView" android:background="@drawable/kalends_bg_line_clause_title_textview" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentTop="true" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/kalends_line_clause_button_layout" android:background="@drawable/kalends_bg_line_clause_button_layout" android:layout_width="fill_parent" android:layout_height="65.0dip" android:layout_alignParentBottom="true">
+        <Button android:textSize="19.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/kalends_line_clause_cancel_button" android:background="@drawable/kalends_bg_line_clause_cancel_button" android:layout_width="100.0dip" android:layout_height="37.0dip" android:layout_marginRight="8.0dip" />
+        <Button android:textSize="19.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/kalends_line_clause_agree_button" android:background="@drawable/kalends_bg_line_clause_agree_button" android:layout_width="100.0dip" android:layout_height="37.0dip" android:layout_marginLeft="8.0dip" />
+    </LinearLayout>
+    <WebView android:id="@id/kalends_line_clause_content_webView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/kalends_line_clause_button_layout" android:layout_below="@id/kalends_line_clause_title_textView" />
+</RelativeLayout>
